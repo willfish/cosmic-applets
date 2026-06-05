@@ -836,9 +836,9 @@ checksum = "613afe47fcd5fac7ccf1db93babcb082c5994d996f20b8b159f2ad1658eb5724"
 
 [[package]]
 name = "chrono"
-version = "0.4.44"
+version = "0.4.45"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c673075a2e0e5f4a1dde27ce9dee1ea4558c7ffe648f576438a20ca1d2acc4b0"
+checksum = "1aa79e62e7697b8e29b513a68abacf485adcd1fe8284a4316c5ae868e6633327"
 dependencies = [
  "iana-time-zone",
  "num-traits",
@@ -1523,7 +1523,7 @@ dependencies = [
 [[package]]
 name = "cosmic-pipewire"
 version = "1.0.7"
-source = "git+https://github.com/pop-os/cosmic-settings#de5e16d360da9a634dcdd291112b76230d86d2ad"
+source = "git+https://github.com/pop-os/cosmic-settings#4ae20bc1db36aae10427efde470a039a8d1ab8ba"
 dependencies = [
  "intmap",
  "libspa",
@@ -1551,7 +1551,7 @@ dependencies = [
 [[package]]
 name = "cosmic-settings-a11y-manager-subscription"
 version = "1.0.7"
-source = "git+https://github.com/pop-os/cosmic-settings#de5e16d360da9a634dcdd291112b76230d86d2ad"
+source = "git+https://github.com/pop-os/cosmic-settings#4ae20bc1db36aae10427efde470a039a8d1ab8ba"
 dependencies = [
  "cosmic-protocols",
  "iced_futures",
@@ -1565,7 +1565,7 @@ dependencies = [
 [[package]]
 name = "cosmic-settings-accessibility-subscription"
 version = "1.0.7"
-source = "git+https://github.com/pop-os/cosmic-settings#de5e16d360da9a634dcdd291112b76230d86d2ad"
+source = "git+https://github.com/pop-os/cosmic-settings#4ae20bc1db36aae10427efde470a039a8d1ab8ba"
 dependencies = [
  "cosmic-dbus-a11y",
  "futures",
@@ -1599,7 +1599,7 @@ dependencies = [
 [[package]]
 name = "cosmic-settings-daemon-subscription"
 version = "1.0.7"
-source = "git+https://github.com/pop-os/cosmic-settings#de5e16d360da9a634dcdd291112b76230d86d2ad"
+source = "git+https://github.com/pop-os/cosmic-settings#4ae20bc1db36aae10427efde470a039a8d1ab8ba"
 dependencies = [
  "futures",
  "iced_futures",
@@ -1612,7 +1612,7 @@ dependencies = [
 [[package]]
 name = "cosmic-settings-network-manager-subscription"
 version = "1.0.7"
-source = "git+https://github.com/pop-os/cosmic-settings#de5e16d360da9a634dcdd291112b76230d86d2ad"
+source = "git+https://github.com/pop-os/cosmic-settings#4ae20bc1db36aae10427efde470a039a8d1ab8ba"
 dependencies = [
  "bitflags 2.12.1",
  "cosmic-dbus-networkmanager",
@@ -1631,7 +1631,7 @@ dependencies = [
 [[package]]
 name = "cosmic-settings-sound-subscription"
 version = "1.0.7"
-source = "git+https://github.com/pop-os/cosmic-settings#de5e16d360da9a634dcdd291112b76230d86d2ad"
+source = "git+https://github.com/pop-os/cosmic-settings#4ae20bc1db36aae10427efde470a039a8d1ab8ba"
 dependencies = [
  "cosmic-pipewire",
  "futures",
@@ -1646,7 +1646,7 @@ dependencies = [
 [[package]]
 name = "cosmic-settings-upower-subscription"
 version = "1.0.7"
-source = "git+https://github.com/pop-os/cosmic-settings#de5e16d360da9a634dcdd291112b76230d86d2ad"
+source = "git+https://github.com/pop-os/cosmic-settings#4ae20bc1db36aae10427efde470a039a8d1ab8ba"
 dependencies = [
  "futures",
  "iced_futures",
@@ -4319,9 +4319,9 @@ dependencies = [
 
 [[package]]
 name = "log"
-version = "0.4.31"
+version = "0.4.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "113b30b4cd05f7c06868fdb2854f66a7b9fece9a48425351cd532e810d74024f"
+checksum = "953f07c43838f8e6f9758cab68bf5bed85465e7587ebe0b823f1bcd81978ad3a"
 
 [[package]]
 name = "logind-zbus"
@@ -6113,9 +6113,9 @@ dependencies = [
 
 [[package]]
 name = "serde_with"
-version = "3.20.0"
+version = "3.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e72c1c2cb7b223fafb600a619537a871c2818583d619401b785e7c0b746ccde2"
+checksum = "76a5c54c7310e7b8b9577c286d7e399ddd876c3e12b3ed917a8aabc4b96e9e8c"
 dependencies = [
  "base64",
  "bs58",
@@ -6133,9 +6133,9 @@ dependencies = [
 
 [[package]]
 name = "serde_with_macros"
-version = "3.20.0"
+version = "3.21.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b90c488738ecb4fb0262f41f43bc40efc5868d9fb744319ddf5f5317f417bfac"
+checksum = "84d57bc0c8b9a17920c178daa6bb924850d54a9c97ab45194bb8c17ad66bb660"
 dependencies = [
  "darling 0.23.0",
  "proc-macro2",
@@ -8556,9 +8556,9 @@ checksum = "e01738255b5a16e78bbb83e7fbba0a1e7dd506905cfc53f4622d89015a03fbb5"
 
 [[package]]
 name = "yoke"
-version = "0.8.2"
+version = "0.8.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "abe8c5fda708d9ca3df187cae8bfb9ceda00dd96231bed36e445a1a48e66f9ca"
+checksum = "709fe23a0424b6a435d82152b1bd3fdfb0833487d5fa90d05d42762a9891fef5"
 dependencies = [
  "stable_deref_trait",
  "yoke-derive",

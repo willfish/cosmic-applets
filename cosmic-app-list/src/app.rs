@@ -2124,7 +2124,7 @@ impl cosmic::Application for CosmicAppList {
                     ) -> cosmic::widget::Button<'a, Message> {
                         button::custom(content)
                             .height(20 + 2 * theme::spacing().space_xxs)
-                            .class(Button::MenuItem)
+                            .class(Button::AppletMenu)
                             .padding(menu_control_padding())
                             .width(Length::Fill)
                     }
@@ -2238,13 +2238,7 @@ impl cosmic::Application for CosmicAppList {
                     }
                     self.core
                         .applet
-                        .popup_container(
-                            container(content)
-                                .class(theme::Container::Transparent)
-                                .padding(1)
-                                .height(Length::Shrink)
-                                .width(Length::Fill),
-                        )
+                        .popup_container(content)
                         .limits(
                             Limits::NONE
                                 .min_width(1.)
