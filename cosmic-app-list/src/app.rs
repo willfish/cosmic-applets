@@ -2240,6 +2240,7 @@ impl cosmic::Application for CosmicAppList {
                         .applet
                         .popup_container(
                             container(content)
+                                .class(theme::Container::Transparent)
                                 .padding(1)
                                 .height(Length::Shrink)
                                 .width(Length::Fill),
